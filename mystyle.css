@@ -1,0 +1,76 @@
+body {
+  background-color: #B4C5E7;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h4 {
+  color: black;
+  margin-left: 20px;
+  text-align: left;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+label {
+  color: black;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+td {
+  color: black;
+  align-items: left;
+  background-color: darkgray;
+}
+
+th {
+  color: black;
+  align-items: left;
+  background-color: gainsboro;
+}
+
+a {
+  color: black;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+
+
+.divCabecalho {
+  text-align: left;
+  margin: 0 auto;
+}
+
+
+.divInfos {
+  align-content: left;
+  align-items: left;
+  text-align: left;
+  margin: 0 auto;
+  border-color: black;
+  border-style: groove;
+  border-width: 1px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  border-top-style: inset;
+  border-radius: 250px;
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
